@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="index_style.css">
+    <title>Index</title>
+</head>
+
+
+<body>
+    
+
+    <div class="navbody">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">MediPlus</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse move" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#About">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#Department">Department</a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#Doctors">Doctors</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#Contact">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="mx-2">
+                        <button class="btn btn-danger" data-bs-toggle="modal"
+                            data-bs-target="#loginModal">Appointment</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="loginexampleModalLabel" style="margin-left: 20%;">
+                            <center>Please fill the given form <br>for booking an Appointment!</center>
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <p style="color: red;">After filling the form you will recieve a mail for conforming email
+                                and mobile number after that you can book your appointment</p>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="exampleInputnumber1" class="form-label">Mobile</label>
+                                <input type="number" class="form-control" id="exampleInputnumber1">
+                            </div>
+
+
+
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="bcontent" id="Home">
+            <div class="content">
+                <h6 class="h6">Welcome to mediPlus</h6>
+                <h2 class="h2">We are here<br>
+                    for your Care</h2>
+                <p class="p">
+                <h4>Far far away, behind the word mountains, far from the countries<br> Vokalia and Consonantia, there
+                    live the blind texts. Separated<br> they live in Bookmarksgrove.</h4>
+                </p>
+                <div class="button">
+                    <button class="btn btn-primary primary" data-bs-toggle="modal" data-bs-target="#loginModal">Book an
+                        Appointment Now!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container marketing" id="About">
+
+
+
+        <div class="row featurette ok">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">We Are Mediplus A Medical Clinic</h2>
+                <p class="lead">A small river named Duden flows by their place and supplies it with the necessary
+                    regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                    It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="Capture.PNG" alt=""
+                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                    height="500">
+
+            </div>
+        </div>
+        <div class="banner">
+            <div class="a1">
+                <center>
+                    <h2 class="alpha">Your Health is Our Priority</h2>
+                </center>
+                <center>
+                    <p class="beta">We can manage your dream building A small river named Duden flows by their place</p>
+                    <button class="btn btn-success gamma">Search palce</button>
+                </center>
+            </div>
+
+        </div>
+        <div class="dep" id="Department">
+            <div class="container">
+                <div class="simage">
+                    <img src="Capture.PNG" alt=""
+                        class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500">
+                </div>
+                <div class="row">
+                    <div class="col col1">
+                        <center><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                aria-hidden="true" focusable="false" width="2em" height="2em"
+                                style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+                                preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                <path
+                                    d="M19 8c.56 0 1 .43 1 1a1 1 0 0 1-1 1c-.57 0-1-.45-1-1c0-.57.43-1 1-1M2 2v9c0 2.96 2.19 5.5 5.14 5.91c.62 3.01 3.28 5.09 6.36 5.09a6.5 6.5 0 0 0 6.5-6.5v-3.69c1.16-.42 2-1.52 2-2.81a3 3 0 0 0-3-3a3 3 0 0 0-3 3c0 1.29.84 2.4 2 2.81v3.6c0 2.5-2 4.5-4.5 4.5c-2 0-3.68-1.21-4.28-3.01C12 16.3 14 13.8 14 11V2h-4v3h2v6a4 4 0 0 1-4 4a4 4 0 0 1-4-4V5h2V2H2z"
+                                    fill="#626262" />
+                            </svg></center>
+                        <center>
+                            <h4>Neurology</h4>
+                        </center>
+                        <center>
+                            <p class="pp">Lorem ipsum dolor sit amet.
+                            </p>
+                        </center>
+                    </div>
+                    <div class="col col1">
+                        <center><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                aria-hidden="true" focusable="false" width="2em" height="2em"
+                                style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+                                preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                <path
+                                    d="M19 8c.56 0 1 .43 1 1a1 1 0 0 1-1 1c-.57 0-1-.45-1-1c0-.57.43-1 1-1M2 2v9c0 2.96 2.19 5.5 5.14 5.91c.62 3.01 3.28 5.09 6.36 5.09a6.5 6.5 0 0 0 6.5-6.5v-3.69c1.16-.42 2-1.52 2-2.81a3 3 0 0 0-3-3a3 3 0 0 0-3 3c0 1.29.84 2.4 2 2.81v3.6c0 2.5-2 4.5-4.5 4.5c-2 0-3.68-1.21-4.28-3.01C12 16.3 14 13.8 14 11V2h-4v3h2v6a4 4 0 0 1-4 4a4 4 0 0 1-4-4V5h2V2H2z"
+                                    fill="#626262" />
+                            </svg></center>
+                        <center>
+                            <h4>Opthalmology</h4>
+                        </center>
+                        <center>
+                            <p class="pp">Lorem ipsum dolor sit amet.
+                            </p>
+                        </center>
+                    </div>
+                    <div class="col col1">
+                        <center><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                aria-hidden="true" focusable="false" width="2em" height="2em"
+                                style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+                                preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                <path
+                                    d="M19 8c.56 0 1 .43 1 1a1 1 0 0 1-1 1c-.57 0-1-.45-1-1c0-.57.43-1 1-1M2 2v9c0 2.96 2.19 5.5 5.14 5.91c.62 3.01 3.28 5.09 6.36 5.09a6.5 6.5 0 0 0 6.5-6.5v-3.69c1.16-.42 2-1.52 2-2.81a3 3 0 0 0-3-3a3 3 0 0 0-3 3c0 1.29.84 2.4 2 2.81v3.6c0 2.5-2 4.5-4.5 4.5c-2 0-3.68-1.21-4.28-3.01C12 16.3 14 13.8 14 11V2h-4v3h2v6a4 4 0 0 1-4 4a4 4 0 0 1-4-4V5h2V2H2z"
+                                    fill="#626262" />
+                            </svg></center>
+
+                        <center>
+                            <h4>Neuclear Magnetic</h4>
+                        </center>
+                        <center>
+                            <p class="pp">Lorem ipsum dolor sit amet.
+                            </p>
+                        </center>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col1">
+                        <center><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                aria-hidden="true" focusable="false" width="2em" height="2em"
+                                style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+                                preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                <path
+                                    d="M19 8c.56 0 1 .43 1 1a1 1 0 0 1-1 1c-.57 0-1-.45-1-1c0-.57.43-1 1-1M2 2v9c0 2.96 2.19 5.5 5.14 5.91c.62 3.01 3.28 5.09 6.36 5.09a6.5 6.5 0 0 0 6.5-6.5v-3.69c1.16-.42 2-1.52 2-2.81a3 3 0 0 0-3-3a3 3 0 0 0-3 3c0 1.29.84 2.4 2 2.81v3.6c0 2.5-2 4.5-4.5 4.5c-2 0-3.68-1.21-4.28-3.01C12 16.3 14 13.8 14 11V2h-4v3h2v6a4 4 0 0 1-4 4a4 4 0 0 1-4-4V5h2V2H2z"
+                                    fill="#626262" />
+                            </svg></center>
+                        <center>
+                            <h4>Surgical</h4>
+                        </center>
+                        <center>
+                            <p class="pp">Lorem ipsum dolor sit amet.
+                            </p>
+                        </center>
+                    </div>
+                    <div class="col col1">
+                        <center><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                aria-hidden="true" focusable="false" width="2em" height="2em"
+                                style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+                                preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                <path
+                                    d="M19 8c.56 0 1 .43 1 1a1 1 0 0 1-1 1c-.57 0-1-.45-1-1c0-.57.43-1 1-1M2 2v9c0 2.96 2.19 5.5 5.14 5.91c.62 3.01 3.28 5.09 6.36 5.09a6.5 6.5 0 0 0 6.5-6.5v-3.69c1.16-.42 2-1.52 2-2.81a3 3 0 0 0-3-3a3 3 0 0 0-3 3c0 1.29.84 2.4 2 2.81v3.6c0 2.5-2 4.5-4.5 4.5c-2 0-3.68-1.21-4.28-3.01C12 16.3 14 13.8 14 11V2h-4v3h2v6a4 4 0 0 1-4 4a4 4 0 0 1-4-4V5h2V2H2z"
+                                    fill="#626262" />
+                            </svg></center>
+                        <center>
+                            <h4>Cardiology</h4>
+                        </center>
+                        <center>
+                            <p class="pp">Lorem ipsum dolor sit amet.
+                            </p>
+                        </center>
+                    </div>
+                    <div class="col col1">
+                        <center><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                aria-hidden="true" focusable="false" width="2em" height="2em"
+                                style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+                                preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                <path
+                                    d="M19 8c.56 0 1 .43 1 1a1 1 0 0 1-1 1c-.57 0-1-.45-1-1c0-.57.43-1 1-1M2 2v9c0 2.96 2.19 5.5 5.14 5.91c.62 3.01 3.28 5.09 6.36 5.09a6.5 6.5 0 0 0 6.5-6.5v-3.69c1.16-.42 2-1.52 2-2.81a3 3 0 0 0-3-3a3 3 0 0 0-3 3c0 1.29.84 2.4 2 2.81v3.6c0 2.5-2 4.5-4.5 4.5c-2 0-3.68-1.21-4.28-3.01C12 16.3 14 13.8 14 11V2h-4v3h2v6a4 4 0 0 1-4 4a4 4 0 0 1-4-4V5h2V2H2z"
+                                    fill="#626262" />
+                            </svg></center>
+                        <center>
+                            <h4>X-ray</h4>
+                        </center>
+                        <center>
+                            <p class="pp">Lorem ipsum dolor sit amet.
+                            </p>
+                        </center>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col1">
+                        <center><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                aria-hidden="true" focusable="false" width="2em" height="2em"
+                                style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+                                preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                <path
+                                    d="M19 8c.56 0 1 .43 1 1a1 1 0 0 1-1 1c-.57 0-1-.45-1-1c0-.57.43-1 1-1M2 2v9c0 2.96 2.19 5.5 5.14 5.91c.62 3.01 3.28 5.09 6.36 5.09a6.5 6.5 0 0 0 6.5-6.5v-3.69c1.16-.42 2-1.52 2-2.81a3 3 0 0 0-3-3a3 3 0 0 0-3 3c0 1.29.84 2.4 2 2.81v3.6c0 2.5-2 4.5-4.5 4.5c-2 0-3.68-1.21-4.28-3.01C12 16.3 14 13.8 14 11V2h-4v3h2v6a4 4 0 0 1-4 4a4 4 0 0 1-4-4V5h2V2H2z"
+                                    fill="#626262" />
+                            </svg></center>
+                        <center>
+                            <h4>Dental</h4>
+                        </center>
+                        <center>
+                            <p class="pp">Lorem ipsum dolor sit amet.
+                            </p>
+                        </center>
+                    </div>
+                    <div class="col col1">
+                        <center><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                aria-hidden="true" focusable="false" width="2em" height="2em"
+                                style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+                                preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                <path
+                                    d="M19 8c.56 0 1 .43 1 1a1 1 0 0 1-1 1c-.57 0-1-.45-1-1c0-.57.43-1 1-1M2 2v9c0 2.96 2.19 5.5 5.14 5.91c.62 3.01 3.28 5.09 6.36 5.09a6.5 6.5 0 0 0 6.5-6.5v-3.69c1.16-.42 2-1.52 2-2.81a3 3 0 0 0-3-3a3 3 0 0 0-3 3c0 1.29.84 2.4 2 2.81v3.6c0 2.5-2 4.5-4.5 4.5c-2 0-3.68-1.21-4.28-3.01C12 16.3 14 13.8 14 11V2h-4v3h2v6a4 4 0 0 1-4 4a4 4 0 0 1-4-4V5h2V2H2z"
+                                    fill="#626262" />
+                            </svg></center>
+                        <center>
+                            <h4>Traumatology</h4>
+                        </center>
+                        <center>
+                            <p class="pp">Lorem ipsum dolor sit amet.
+                            </p>
+                        </center>
+                    </div>
+                    <div class="col col1">
+                        <center><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                aria-hidden="true" focusable="false" width="2em" height="2em"
+                                style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+                                preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                <path
+                                    d="M19 8c.56 0 1 .43 1 1a1 1 0 0 1-1 1c-.57 0-1-.45-1-1c0-.57.43-1 1-1M2 2v9c0 2.96 2.19 5.5 5.14 5.91c.62 3.01 3.28 5.09 6.36 5.09a6.5 6.5 0 0 0 6.5-6.5v-3.69c1.16-.42 2-1.52 2-2.81a3 3 0 0 0-3-3a3 3 0 0 0-3 3c0 1.29.84 2.4 2 2.81v3.6c0 2.5-2 4.5-4.5 4.5c-2 0-3.68-1.21-4.28-3.01C12 16.3 14 13.8 14 11V2h-4v3h2v6a4 4 0 0 1-4 4a4 4 0 0 1-4-4V5h2V2H2z"
+                                    fill="#626262" />
+                            </svg></center>
+                        <center>
+                            <h4>Psycology</h4>
+                        </center>
+                        <center>
+                            <p class="pp">Lorem ipsum dolor sit amet.
+                            </p>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br>
+        <div class="doctors" id="Doctors">
+            <div class="doc">
+                <center>
+                    <h2 class="doc1">Our Qualified Doctors</h2>
+                </center>
+                <center>
+                    <p class="doc2">Separated they live in. A small river named Duden flows by their place and supplies
+                        it with the
+                        necessary regelialia. It is a paradisematic country</p>
+                </center>
+            </div>
+
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col col2">
+                    <div class="card shadow-sm">
+                        <div class="imaga2">
+
+                        </div>
+                        <center>
+                            <h4 class="name">Dr.Rachel Parker</h4>
+                            <h5 class="desig">Neurologist</h5>
+                        </center>
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="buton">
+                                    <center><button class="btn btn-primary appoint" data-bs-toggle="modal"
+                                            data-bs-target="#loginModal">Book Appointment</button></center>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col2">
+                    <div class="card shadow-sm">
+                        <div class="imaga1">
+
+                        </div>
+                        <center>
+                            <h4 class="name">Dr. Ian Smith</h4>
+                            <h5 class="desig">Dentist</h5>
+                        </center>
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="buton">
+                                    <center><button class="btn btn-primary appoint" data-bs-toggle="modal"
+                                            data-bs-target="#loginModal">Book Appointment</button></center>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col2">
+                    <div class="card shadow-sm">
+                        <div class="imaga">
+
+                        </div>
+                        <center>
+                            <h4 class="name">Dr. Alicia Henderson</h4>
+                            <h5 class="desig">Surgeon</h5>
+                        </center>
+
+
+
+
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="buton">
+                                    <center><button class="btn btn-primary appoint" data-bs-toggle="modal"
+                                            data-bs-target="#loginModal">Book Appointment</button></center>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="Contact">
+        <div class="doc">
+            <center>
+                <h2 class="con1">Contact Us</h2>
+            </center>
+            <center>
+                <p class="con2">Just drop a message to us our team will contact you within 5 minutes! Or you can reach out to us directly on <br><a href="#">+91 90000 00000 </a>| <a href="#">+91 80000 00000 </a></p>
+            </center>
+        </div>
+    
+        <div class="contactform">
+            <div class="pic">
+
+                <img src="download.jpg" alt="">
+            </div>
+            <div class="form">
+                <center>
+                    
+                    <p style="font-size: 30px;"></p>
+                </center>
+                <form>
+
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Mobile</label>
+                        <input type="number" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputMessage1" class="form-label">Message to us</label>
+                        <input type="text" class="form-control" id="exampleInputMessage1">
+                    </div>
+
+                    <center><button type="submit" class="btn btn-primary form-control">Submit</button></center>
+                </form>
+            </div>
+        </div>
+    
+    <footer>
+        <div class="container">
+           <p> <center>Copyright © MediPlus. All Rights Reserved | Contact Us: +91 90000 00000</center></p>
+        </div>
+
+    </footer>
+
+   
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
